@@ -1,0 +1,151 @@
+===== GIT AUTOPUSH - LOG DE COMPILATION =====
+Date : 03/11/2026 15:28:38,22
+Dossier : C:\Users\ivann\Downloads\
+
+----- SYSTEME -----
+
+Microsoft Windows [version 10.0.19045.6466]
+PROCESSOR_ARCHITECTURE = AMD64
+PROCESSOR_ARCHITEW6432 = 
+
+
+Caption        : Microsoft Windows 10 Professionnel
+Version        : 10.0.19045
+OSArchitecture : 64 bits
+
+
+
+
+
+----- PYTHON DISPONIBLES -----
+C:\Users\ivann\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\ivann\AppData\Local\Python\bin\python.exe
+ -V:3.15[-64] *   C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\python.exe
+
+----- PYTHON UTILISE : python -----
+Python 3.15.2
+Machine: AMD64 | 64 bits
+Executable: C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\python.exe
+tkinter OK, version 9.0
+
+----- GIT -----
+git version 2.56.0.windows.2
+
+----- INSTALLATION PYINSTALLER -----
+Requirement already satisfied: pyinstaller in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (6.22.3)
+Requirement already satisfied: altgraph in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (0.17.5)
+Requirement already satisfied: packaging>=22.0 in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (26.3)
+Requirement already satisfied: pefile>=2022.5.30 in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (2024.8.26)
+Requirement already satisfied: pyinstaller-hooks-contrib>=2026.7 in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (2026.9)
+Requirement already satisfied: pywin32-ctypes>=0.2.1 in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (0.2.3)
+Requirement already satisfied: setuptools>=42.0.0 in C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages (from pyinstaller) (84.2.1)
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\python.exe -m pip install --upgrade pip
+Code retour pip : 0
+6.22.3
+
+----- COMPILATION -----
+147 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+147 INFO: Python: 3.15.2
+165 INFO: Platform: Windows-10-10.0.19045-SP0
+165 INFO: Python environment: C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64
+165 INFO: wrote C:\Users\ivann\Downloads\GitAutoPush.spec
+168 INFO: Removing temporary files and cleaning cache in C:\Users\ivann\AppData\Local\pyinstaller
+169 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\ivann\\Downloads',
+ 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\python315.zip',
+ 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\DLLs',
+ 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib',
+ 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64',
+ 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages',
+ 'C:\\Users\\ivann\\Downloads']
+418 INFO: checking Analysis
+418 INFO: Building Analysis because Analysis-00.toc is non existent
+418 INFO: Looking for Python shared library...
+418 INFO: Using Python shared library: C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\python315.dll
+418 INFO: Running Analysis Analysis-00.toc
+418 INFO: Target bytecode optimization level: 0
+418 INFO: Initializing module dependency graph...
+420 INFO: Initializing module graph hook caches...
+431 INFO: Analyzing modules for base_library.zip ...
+1452 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+2361 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+3439 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+3449 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+3553 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+4286 INFO: Caching module dependency graph...
+4305 INFO: Analyzing C:\Users\ivann\Downloads\git_autopush_gui.py
+4323 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+4325 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+4545 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+4604 INFO: Processing module hooks (post-graph stage)...
+4607 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks'
+4609 INFO: Performing binary vs. data reclassification (1 entries)
+4609 INFO: Looking for ctypes DLLs
+4613 INFO: Analyzing run-time hooks ...
+4614 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4616 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\ivann\\AppData\\Local\\Python\\pythoncore-3.15-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+4618 INFO: Creating base_library.zip...
+4632 INFO: Looking for dynamic libraries
+4749 INFO: Extra DLL search directories (AddDllDirectory): []
+4749 INFO: Extra DLL search directories (PATH): []
+4991 INFO: Warnings written to C:\Users\ivann\Downloads\build\GitAutoPush\warn-GitAutoPush.txt
+5000 INFO: Graph cross-reference written to C:\Users\ivann\Downloads\build\GitAutoPush\xref-GitAutoPush.html
+5012 INFO: checking PYZ
+5012 INFO: Building PYZ because PYZ-00.toc is non existent
+5012 INFO: Building PYZ (ZlibArchive) C:\Users\ivann\Downloads\build\GitAutoPush\PYZ-00.pyz
+5100 INFO: Building PYZ (ZlibArchive) C:\Users\ivann\Downloads\build\GitAutoPush\PYZ-00.pyz completed successfully.
+5104 INFO: checking PKG
+5104 INFO: Building PKG because PKG-00.toc is non existent
+5104 INFO: Building PKG (CArchive) GitAutoPush.pkg
+6124 INFO: Building PKG (CArchive) GitAutoPush.pkg completed successfully.
+6126 INFO: Bootloader C:\Users\ivann\AppData\Local\Python\pythoncore-3.15-64\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+6126 INFO: checking EXE
+6126 INFO: Building EXE because EXE-00.toc is non existent
+6126 INFO: Building EXE from EXE-00.toc
+6126 INFO: Copying bootloader EXE to C:\Users\ivann\Downloads\dist\GitAutoPush.exe
+6157 INFO: Copying icon to EXE
+6186 INFO: Copying 0 resources to EXE
+6186 INFO: Embedding manifest in EXE
+6214 INFO: Appending PKG archive to EXE
+6292 INFO: Fixing EXE headers
+6458 INFO: Building EXE from EXE-00.toc completed successfully.
+6460 INFO: Build complete! The results are available in: C:\Users\ivann\Downloads\dist
+Code retour PyInstaller : 0
+
+----- VERIFICATION DU .EXE -----
+Taille (octets): 13875456
+En-tete MZ (vrai exe Windows): True
+Architecture du exe: 0x8664 x64 (64 bits)
+
+----- AVERTISSEMENTS PYINSTALLER -----
+
+This file lists modules PyInstaller was not able to find. This does not
+necessarily mean these modules are required for running your program. Both
+Python's standard library and 3rd-party Python packages often conditionally
+import optional modules, some of which may be available only on certain
+platforms.
+
+Types of import:
+* top-level: imported at the top-level - look at these first
+* conditional: imported within an if-statement
+* delayed: imported within a function
+* optional: imported within a try-except-statement
+
+IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
+            tracking down the missing module yourself. Thanks!
+
+missing module named 'collections.abc' - imported by typing (top-level), selectors (top-level), http.client (top-level), traceback (top-level), importlib.resources.readers (top-level), importlib.resources.abc (top-level), logging (top-level), importlib.metadata (top-level), importlib.metadata._meta (top-level), importlib.metadata._functools (top-level), inspect (top-level), tracemalloc (top-level), _colorize (top-level)
+missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional)
+excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional)
+missing module named posix - imported by os (conditional, optional), shutil (conditional), importlib._bootstrap_external (conditional), pathlib._os (optional), posixpath (optional)
+missing module named resource - imported by posix (top-level)
+missing module named pwd - imported by shutil (delayed, optional), tarfile (optional), pathlib (optional), netrc (delayed, optional), posixpath (delayed, conditional, optional), subprocess (delayed, conditional, optional)
+missing module named _missing_stdlib_info - imported by traceback (optional)
+missing module named _scproxy - imported by urllib.request (conditional)
+missing module named fcntl - imported by pathlib._os (optional), subprocess (optional)
+missing module named grp - imported by shutil (delayed, optional), tarfile (optional), pathlib (optional), subprocess (delayed, conditional, optional)
+missing module named _posixsubprocess - imported by subprocess (conditional)
+
+===== FIN DU LOG =====
