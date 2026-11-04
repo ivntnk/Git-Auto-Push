@@ -9,7 +9,7 @@ Petit logiciel Windows pour envoyer un dossier sur GitHub en quelques clics, san
 3. Tu choisis le dossier à envoyer.
 4. Le programme fait le reste : initialisation du dépôt, remote, branche, `add`, `commit` et `push`.
 
-Si le dépôt GitHub contient déjà des fichiers, le programme propose de les récupérer (`pull --rebase`) puis réessaie l'envoi.
+Si le dépôt GitHub contient déjà des fichiers, le programme propose de les récupérer (`pull --rebase`) puis réessaie l'envoi
 
 ## Contenu du projet
 
